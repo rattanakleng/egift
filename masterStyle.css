@@ -1,0 +1,139 @@
+body {
+    margin: 0 auto;
+}
+.contentContainer {
+    font-family: sans-serif;
+    margin: auto;
+    width: 1260px;
+}
+.topBanner {
+    margin: auto;
+    width: 1260px;
+    height: 394px;
+}
+.instruction {
+    margin: auto;
+    margin-top: 41px;
+    margin-bottom: 45px;
+    width: 1260px;
+}
+.instruction span {
+font-size: 170%;
+}
+.content {
+    margin: auto;
+    width: 1260px;
+    height: 350px;
+}
+.selectionContent {
+    float: left;
+    width: 200px;
+}
+.selectionContent div {
+    margin-top: 14px;
+}
+.imageContainer {
+    float: right;
+    margin-top: 15px;
+    height: 320px;
+    width:893px;
+}
+.firstRow {
+    float: left;
+    height: 146px;
+    width: 100%;
+}
+.secondRow {
+    float: left;
+    margin-top: 28px;
+    height: 146px;
+    width: 100%;
+}
+.imgXbox {
+    float: left;
+    height: 146px;
+    width: 277px;
+}
+.imgWindow {
+    float: left;
+    margin-left: 31px;
+    margin-right: 31px;
+    height: 146px;
+    width: 277px;
+}
+.imgDog {
+    float: right;
+    height: 146px;
+    width: 277px;
+}
+.imgCake {
+    float: left;
+    height: 146px;
+    width: 277px;
+}
+.imgGiftBox {
+    float: left;
+    margin-left: 31px;
+    margin-right: 31px;
+    height: 146px;
+    width: 277px;
+}
+.imgflag {
+    float: right;
+    height: 146px;
+    width: 277px;
+}
+
+
+
+
+
+
+
+/*.imgXbox {
+    position: absolute;
+    top: 525px;
+    left: 490px;
+    height: 146px;
+    width: 277px;
+}
+
+.imgWindow {
+    position: absolute;
+    top: 525px;
+    left: 797px;
+    height: 146px;
+    width: 277px;
+}
+.imgDog {
+    position: absolute;
+    top: 525px;
+    left: 1105px;
+    height: 146px;
+    width: 277px;
+}
+.imgCake {
+    position: absolute;
+    top: 700px;
+    left: 490px;
+    height: 146px;
+    width: 277px;
+}
+
+.imgGiftBox {
+    position: absolute;
+    top: 700px;
+    left: 797px;
+    height: 146px;
+    width: 277px;
+}
+
+.imgFlags {
+    position: absolute;
+    top: 700px;
+    left: 1105px;
+    height: 146px;
+    width: 277px;
+}*/
+
+
