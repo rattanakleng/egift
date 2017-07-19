@@ -11,84 +11,79 @@ body {
     width: 1260px;
     height: 394px;
 }
-.instruction {
-    margin: auto;
-    margin-top: 41px;
-    margin-bottom: 45px;
-    width: 1260px;
-}
-.instruction span {
-font-size: 170%;
-}
+
 .content {
     margin: auto;
     width: 1260px;
     height: 350px;
+    display: block;
+}
+
+.content h2{
+    margin-top: 40px;
+    font-size: 170%;
 }
 .selectionContent {
     float: left;
     width: 200px;
+    margin-top: 40px;
+    display: block;
 }
-.selectionContent div {
-    margin-top: 14px;
+a {
+    margin: 0 0 13px 0;
+    display: block;
+
 }
-.imageContainer {
+.imageWrapper {
     float: right;
-    margin-top: 15px;
-    height: 320px;
-    width:893px;
+    margin-top: 35px;
+    width: 930px;
 }
-.firstRow {
-    float: left;
+
+.allImages {
+    float: right;
     height: 146px;
-    width: 100%;
+    width: 277px;
+    margin: 0px 10px 30px 20px;
 }
-.secondRow {
-    float: left;
-    margin-top: 28px;
-    height: 146px;
-    width: 100%;
-}
-.imgXbox {
+
+/*.imgXgame {
     float: left;
     height: 146px;
     width: 277px;
-}
+    margin: 10px;
+}    
 .imgWindow {
     float: left;
-    margin-left: 31px;
-    margin-right: 31px;
     height: 146px;
     width: 277px;
+    margin: 10px;
 }
 .imgDog {
-    float: right;
+    float: left;
     height: 146px;
     width: 277px;
+    margin: 10px;
 }
+
 .imgCake {
     float: left;
     height: 146px;
     width: 277px;
+    margin: 10px;
 }
 .imgGiftBox {
     float: left;
-    margin-left: 31px;
-    margin-right: 31px;
     height: 146px;
     width: 277px;
+    margin: 10px;
 }
-.imgflag {
-    float: right;
+.imgflags {
+    float: left;
     height: 146px;
     width: 277px;
-}
-
-
-
-
-
-
+    margin: 10px;
+}*/
 
 /*.imgXbox {
     position: absolute;

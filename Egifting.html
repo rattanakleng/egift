@@ -1,14 +1,15 @@
-// can you re-work on html
+<!--// can you re-work on html
 // html is a structural design in website - it should be semantic enough to describe what it does ...
 // Example: https://www.w3schools.com/tags/tag_img.asp
-// Example: https://www.w3schools.com/tags/tag_nav.asp
+// Example: https://www.w3schools.com/tags/tag_nav.asp-->
 
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
         <title> 
             eGifting
         </title>
+        <!--<meta http-equiv="refresh" content="6" >-->
         <link rel="stylesheet" type="text/css" href="masterStyle.css">      
     </head>
     <body>
@@ -17,77 +18,89 @@
                 <img src="Images/Banner.png">
             </div>
             
-            // This should be in content div && make it more semantic - is span semantic enough?
-            <div class="instruction">
-                <span>Select a design to get started</span>
-            </div>
-            
+            <!--// This should be in content div && make it more semantic - is span semantic enough?-->
+           
             <div class="content">
-                
-                // Is this below should all be DIV?                
+                <h2>Select a design to get started</h2>
                 <div class="selectionContent">
-                    <div>
+                    <nav>
+                        <a>
                         All
-                    </div>
-                    <div>
+                        </a>
+                        <a>
                         Armed Forced Day
-                    </div>
-                    <div>
+                        </a>
+                        <a>
                         Birthday
-                    </div>
-                    <div>
+                        </a>
+                        <a>
                         Branded Cards
-                    </div>
-                    <div>
+                        </a>
+                        <a>
                         Easter
-                    </div>
-                    <div>
+                        </a>
+                        <a>
                         Father's Day
-                    </div>
-                    <div>
+                        </a>
+                        <a>
                         Birthday
-                    </div>
-                    <div>
+                        </a>
+                        <a>
                         Graduation
-                    </div>
-                    <div>
+                        </a>
+                        <a>
                         Mother's Day
-                    </div>
-                    <div>
+                        </a>
+                        <a>
                         Sant Patrick's Day
-                    </div>
-                    <div>
+                        </a>
+                        <a>
                         Thank You
-                    </div>
+                        </a>
+                    </nav>
                 </div>
-                <div class="imageContainer">
+                <div class="imageWrapper">
                     
-                    // Only 1 wrapper should be enough ...
+                    <!--// Only 1 wrapper should be enough ...
                     // image tag should be use properly 
-                    // Example: https://www.w3schools.com/tags/tag_img.asp
-                    
-                    <div class="firstRow">
-                        <div class="imgXbox">
-                            <img src="Images/xbox.png"> 
+                    // Example: https://www.w3schools.com/tags/tag_img.asp-->
+                        <!--<div class="imgXgame" class="allImages">
+                            <img src="Images/xbox.png" alt="Xbox Image">
                         </div>
-                        <div class="imgWindow">
-                            <img src="Images/window.png">
+                        <div class="imgWindow" class="allImages">
+                            <img src="Images/window.png" alt="Window Logo">
                         </div>
-                        <div class="imgDog">
-                            <img src="Images/dog.png">
+                        <div class="imgDog" class="allImages">
+                            <img src="Images/dog.png" alt="Dog Image">
                         </div>
+
+                        <div class="imgCake" class="allImages">
+                            <img src="Images/cake.png" alt="Cake Image">
+                        </div>
+                        <div class="imgGiftBox" class="allImages">
+                            <img src="Images/giftBox.png" alt="Gift Box Image">
+                        </div>
+                        <div class="imgFlags" class="allImages">
+                            <img src="Images/flag.png" alt="Flag Image">
+                        </div>-->
+                    <div class="allImages">
+                        <img src="Images/dog.png" alt="Dog Image">
+                    </div>                    
+                    <div class="allImages">
+                        <img src="Images/window.png" alt="Window Logo">
+                    </div>                    
+                    <div class="allImages">
+                        <img src="Images/xbox.png" alt="Xbox Image">
                     </div>
-                    <div class="secondRow">
-                        <div class="imgCake">
-                            <img src="Images/cake.png">
-                        </div>
-                        <div class="imgGiftBox">
-                            <img src="Images/giftBox.png">
-                        </div>
-                        <div class="imgFlags">
-                            <img src="Images/flag.png">
-                        </div>
+                    <div class="allImages">
+                        <img src="Images/flag.png" alt="Flag Image">
                     </div>
+                    <div class="allImages">
+                        <img src="Images/giftBox.png" alt="Gift Box Image">
+                    </div>
+                    <div class="allImages">
+                        <img src="Images/cake.png" alt="Cake Image">
+                    </div>    
                 </div>
             </div> 
        </div>
