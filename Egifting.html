@@ -1,108 +1,110 @@
-<!--// can you re-work on html
-// html is a structural design in website - it should be semantic enough to describe what it does ...
-// Example: https://www.w3schools.com/tags/tag_img.asp
-// Example: https://www.w3schools.com/tags/tag_nav.asp-->
-
 <!DOCTYPE html>
 <html>
     <head>
-        <title> 
-            eGifting
-        </title>
+        <title> eGifting </title>
         <!--<meta http-equiv="refresh" content="6" >-->
-        <link rel="stylesheet" type="text/css" href="masterStyle.css">      
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="masterStyle.css">              
     </head>
     <body>
         <div class="contentContainer">
             <div class="topBanner">
                 <img src="Images/Banner.png">
-            </div>
-            
-            <!--// This should be in content div && make it more semantic - is span semantic enough?-->
-           
+            </div>            
             <div class="content">
-                <h2>Select a design to get started</h2>
-                <div class="selectionContent">
+                <h1>Select a design to get started</h1>
+                <div class="sideNav">
                     <nav>
-                        <a>
-                        All
-                        </a>
-                        <a>
-                        Armed Forced Day
-                        </a>
-                        <a>
-                        Birthday
-                        </a>
-                        <a>
-                        Branded Cards
-                        </a>
-                        <a>
-                        Easter
-                        </a>
-                        <a>
-                        Father's Day
-                        </a>
-                        <a>
-                        Birthday
-                        </a>
-                        <a>
-                        Graduation
-                        </a>
-                        <a>
-                        Mother's Day
-                        </a>
-                        <a>
-                        Sant Patrick's Day
-                        </a>
-                        <a>
-                        Thank You
-                        </a>
+                        <ol class="navList">
+                        <li>
+                            <a href="#all" title="Select for all category cards"> All </a>
+                        <li>
+                            <a href="#afd" title="Select for armforce cards"> Armed Forced Day </a>
+                        </li>
+                        <li>
+                            <a href="#birthDay" title="Select for birthday cards"> Birthday </a>
+                        </li>
+                        <li> 
+                            <a href="#brandCard" title="Select for your favorite cards"> Branded Cards </a>
+                        </li>
+                        <li>
+                            <a href="#easter" title="Select for Easter cards"> Easter </a>
+                        </li>
+                        <li> 
+                            <a href="#fatherDay" title="Select for father's day cards"> Father's Day </a>
+                        </li>
+                        <li>
+                            <a href="#grad" title="Select for graduation cards"> Graduation </a>
+                        </li>
+                        <li>
+                            <a href="#motherDay" title="Select for mother's cards"> Mother's Day </a>
+                        <li> 
+                            <a href="#santPatrick" title="Select for Sant Patrick's cards"> Sant Patrick's Day </a>
+                        <li> 
+                            <a href="#thxU" title="Select for thank you cards"> Thank You </a>
+                        </li>
+                        </ol>
                     </nav>
                 </div>
                 <div class="imageWrapper">
-                    
-                    <!--// Only 1 wrapper should be enough ...
-                    // image tag should be use properly 
-                    // Example: https://www.w3schools.com/tags/tag_img.asp-->
-                        <!--<div class="imgXgame" class="allImages">
-                            <img src="Images/xbox.png" alt="Xbox Image">
+                        <div class="allImages">
+                            <img id="afd" src="Images/xbox.png" alt="Xbox Image">
                         </div>
-                        <div class="imgWindow" class="allImages">
+                        <div class="allImages">
                             <img src="Images/window.png" alt="Window Logo">
                         </div>
-                        <div class="imgDog" class="allImages">
+                        <div class="allImages">
                             <img src="Images/dog.png" alt="Dog Image">
                         </div>
-
-                        <div class="imgCake" class="allImages">
+                        <div class="allImages">
                             <img src="Images/cake.png" alt="Cake Image">
                         </div>
-                        <div class="imgGiftBox" class="allImages">
+                        <div class="allImages">
                             <img src="Images/giftBox.png" alt="Gift Box Image">
                         </div>
-                        <div class="imgFlags" class="allImages">
+                        <div class="allImages">
                             <img src="Images/flag.png" alt="Flag Image">
-                        </div>-->
-                    <div class="allImages">
-                        <img src="Images/dog.png" alt="Dog Image">
-                    </div>                    
-                    <div class="allImages">
-                        <img src="Images/window.png" alt="Window Logo">
-                    </div>                    
-                    <div class="allImages">
-                        <img src="Images/xbox.png" alt="Xbox Image">
-                    </div>
-                    <div class="allImages">
-                        <img src="Images/flag.png" alt="Flag Image">
-                    </div>
-                    <div class="allImages">
-                        <img src="Images/giftBox.png" alt="Gift Box Image">
-                    </div>
-                    <div class="allImages">
-                        <img src="Images/cake.png" alt="Cake Image">
-                    </div>    
+                        </div>
+                        <div class="allImages">
+                            <img src="Images/xbox.png" alt="Xbox Image">
+                        </div>
+                        <div class="allImages">
+                            <img src="Images/window.png" alt="Window Logo">
+                        </div>
+                        <div class="allImages">
+                            <img src="Images/dog.png" alt="Dog Image">
+                        </div>
+                        <div class="allImages">
+                            <img src="Images/cake.png" alt="Cake Image">
+                        </div>
+                        <div class="allImages">
+                            <img src="Images/giftBox.png" alt="Gift Box Image">
+                        </div>
+                        <div class="allImages">
+                            <img id="thxU" src="Images/flag.png" alt="Flag Image">
+                        </div>
                 </div>
             </div> 
+       </div>
+       <div class="text">
+           <h3> CSS selector </h3>
+           <h4> CSS general sibling selector-color red </h4>
+           <section>
+                <p> First paragraph </p>
+                <p> Second paragraph </p>
+                <!--Adjacent sibling selector-color blue-->
+                <ol>
+                    <li> First option </li>
+                    <li> Second option </li>
+                    <li> Third ption </li>
+                </ol>
+                <ol>
+                    <li> First option </li>
+                    <li> Second option </li>
+                    <li> Third ption </li>
+                </ol>
+            </section>
+            <h4> CSS general sibling selector-color red </h4>
        </div>
     </body>
 </html>
